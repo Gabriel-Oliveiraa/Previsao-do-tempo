@@ -59,6 +59,11 @@ body {
     font-weight: 500;
 }
 
+.showcase-container > img {
+    width: 210px;
+    height: 210px;
+}
+
 /*Previsão por hora*/
 
 .hourly-forecast-container {
@@ -94,6 +99,53 @@ body {
     color: white;
     font-weight: 700;
     font-size: 2rem;
+}
+
+/*Detalhes*/
+.weather-details-container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 220px);
+    grid-column-gap: 15px;
+}
+
+.weather-details-container .weather-details-item {
+    background-color: white;
+    border-radius: 40px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.weather-details-container .weather-details-item > p:first-child {
+    color: #8f8f8f; 
+}
+
+.weather-details-container .weather-details-item > div {
+    display: flex;
+    align-items: center;
+}
+
+.weather-details-container .weather-details-item > div > p {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2a394f;
+    margin-left: 4px;
+}
+
+.weather-details-container .weather-details-item > div > p > span {
+    font-size: 1rem;
+    margin-left: -5px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.weather-details-container .weather-details-item > div > img {
+    width: 35px;
+    height: 35px;
 }
 
 /*Utilidades*/
