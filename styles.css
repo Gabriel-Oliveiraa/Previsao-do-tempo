@@ -22,6 +22,7 @@ body {
     grid-column-gap: 100px;
 }
 
+/*Barra de pesquisa*/
 .navbar-container {
     display: flex;
     align-items: center;
@@ -33,7 +34,6 @@ body {
 }
 
 /*Showcase*/
-
 .showcase-container {
     display: flex;
     align-items: center;
@@ -66,7 +66,6 @@ body {
 }
 
 /*Previsão por hora*/
-
 .hourly-forecast-container {
     background: linear-gradient(90.28deg, #007dfe 0.22%, #3aa2ff 99.276%);
     box-shadow: 0px 30px 50px -19px rgba(1, 126, 254, 0.5);
@@ -163,6 +162,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .weekly-forecast-container .day-weather-item > p,
